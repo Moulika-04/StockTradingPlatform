@@ -86,9 +86,9 @@ class SimpleStockTrading
                     break;
 
                 case 3:
-                    System.out.print("Enter stock name to sell (TCS or Infosys): ");
+                    System.out.println("Enter stock name to sell (TCS or Infosys): ");
                     String sellName = sc.next();
-                    System.out.print("Enter quantity: ");
+                    System.out.println("Enter quantity: ");
                     int sellQty = sc.nextInt();
                     if (sellName.equalsIgnoreCase("TCS") && tcsOwned >= sellQty)
                      {
